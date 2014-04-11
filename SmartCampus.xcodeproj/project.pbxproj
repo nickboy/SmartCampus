@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0EE4A818F7B67F0054ACF9 /* GDUcustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE49518F7B67F0054ACF9 /* GDUcustomer.m */; };
+		0B0EE4A918F7B67F0054ACF9 /* GDUgetSensorDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE49718F7B67F0054ACF9 /* GDUgetSensorDataResponse.m */; };
+		0B0EE4AA18F7B67F0054ACF9 /* GDUHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE49918F7B67F0054ACF9 /* GDUHelper.m */; };
+		0B0EE4AB18F7B67F0054ACF9 /* GDURequestResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE49B18F7B67F0054ACF9 /* GDURequestResultHandler.m */; };
+		0B0EE4AC18F7B67F0054ACF9 /* GDUsensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE49D18F7B67F0054ACF9 /* GDUsensor.m */; };
+		0B0EE4AD18F7B67F0054ACF9 /* GDUSoapError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE49F18F7B67F0054ACF9 /* GDUSoapError.m */; };
+		0B0EE4AE18F7B67F0054ACF9 /* GDUsurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4A118F7B67F0054ACF9 /* GDUsurvey.m */; };
+		0B0EE4AF18F7B67F0054ACF9 /* GDUsurveyAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4A318F7B67F0054ACF9 /* GDUsurveyAnswer.m */; };
+		0B0EE4B018F7B67F0054ACF9 /* GDUsurveyQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4A518F7B67F0054ACF9 /* GDUsurveyQuestion.m */; };
+		0B0EE4B118F7B67F0054ACF9 /* GDUWSPortBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4A718F7B67F0054ACF9 /* GDUWSPortBinding.m */; };
+		0B0EE4C218F7B6A90054ACF9 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4B518F7B6A90054ACF9 /* DDXMLElementAdditions.m */; };
+		0B0EE4C318F7B6A90054ACF9 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4B818F7B6A90054ACF9 /* NSString+DDXML.m */; };
+		0B0EE4C418F7B6A90054ACF9 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4BB18F7B6A90054ACF9 /* DDXMLDocument.m */; };
+		0B0EE4C518F7B6A90054ACF9 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4BD18F7B6A90054ACF9 /* DDXMLElement.m */; };
+		0B0EE4C618F7B6A90054ACF9 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0EE4BF18F7B6A90054ACF9 /* DDXMLNode.m */; };
+		0B2EFD0B18F716AF001A2396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2EFD0A18F716AF001A2396 /* Foundation.framework */; };
+		0B2EFD0D18F716AF001A2396 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2EFD0C18F716AF001A2396 /* CoreGraphics.framework */; };
+		0B2EFD0F18F716AF001A2396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2EFD0E18F716AF001A2396 /* UIKit.framework */; };
+		0B2EFD1518F716AF001A2396 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EFD1318F716AF001A2396 /* InfoPlist.strings */; };
+		0B2EFD1718F716AF001A2396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EFD1618F716AF001A2396 /* main.m */; };
+		0B2EFD1B18F716AF001A2396 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EFD1A18F716AF001A2396 /* AppDelegate.m */; };
+		0B2EFD1E18F716AF001A2396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EFD1C18F716AF001A2396 /* Main.storyboard */; };
+		0B2EFD2118F716AF001A2396 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EFD2018F716AF001A2396 /* ViewController.m */; };
+		0B2EFD2318F716AF001A2396 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EFD2218F716AF001A2396 /* Images.xcassets */; };
+		0B2EFD2A18F716AF001A2396 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2EFD2918F716AF001A2396 /* XCTest.framework */; };
+		0B2EFD2B18F716AF001A2396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2EFD0A18F716AF001A2396 /* Foundation.framework */; };
+		0B2EFD2C18F716AF001A2396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2EFD0E18F716AF001A2396 /* UIKit.framework */; };
+		0B2EFD3418F716AF001A2396 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EFD3218F716AF001A2396 /* InfoPlist.strings */; };
+		0B2EFD3618F716AF001A2396 /* SmartCampusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EFD3518F716AF001A2396 /* SmartCampusTests.m */; };
+		0B9E5DC518F71A0100C29924 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E5DC418F71A0100C29924 /* SettingsViewController.m */; };
+		0B9E5DC718F71B5300C29924 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9E5DC618F71B5300C29924 /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2EFD2D18F716AF001A2396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2EFCFF18F716AF001A2396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2EFD0618F716AF001A2396;
+			remoteInfo = SmartCampus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0EE49418F7B67F0054ACF9 /* GDUcustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUcustomer.h; sourceTree = "<group>"; };
+		0B0EE49518F7B67F0054ACF9 /* GDUcustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUcustomer.m; sourceTree = "<group>"; };
+		0B0EE49618F7B67F0054ACF9 /* GDUgetSensorDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUgetSensorDataResponse.h; sourceTree = "<group>"; };
+		0B0EE49718F7B67F0054ACF9 /* GDUgetSensorDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUgetSensorDataResponse.m; sourceTree = "<group>"; };
+		0B0EE49818F7B67F0054ACF9 /* GDUHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUHelper.h; sourceTree = "<group>"; };
+		0B0EE49918F7B67F0054ACF9 /* GDUHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUHelper.m; sourceTree = "<group>"; };
+		0B0EE49A18F7B67F0054ACF9 /* GDURequestResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDURequestResultHandler.h; sourceTree = "<group>"; };
+		0B0EE49B18F7B67F0054ACF9 /* GDURequestResultHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDURequestResultHandler.m; sourceTree = "<group>"; };
+		0B0EE49C18F7B67F0054ACF9 /* GDUsensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUsensor.h; sourceTree = "<group>"; };
+		0B0EE49D18F7B67F0054ACF9 /* GDUsensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUsensor.m; sourceTree = "<group>"; };
+		0B0EE49E18F7B67F0054ACF9 /* GDUSoapError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUSoapError.h; sourceTree = "<group>"; };
+		0B0EE49F18F7B67F0054ACF9 /* GDUSoapError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUSoapError.m; sourceTree = "<group>"; };
+		0B0EE4A018F7B67F0054ACF9 /* GDUsurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUsurvey.h; sourceTree = "<group>"; };
+		0B0EE4A118F7B67F0054ACF9 /* GDUsurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUsurvey.m; sourceTree = "<group>"; };
+		0B0EE4A218F7B67F0054ACF9 /* GDUsurveyAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUsurveyAnswer.h; sourceTree = "<group>"; };
+		0B0EE4A318F7B67F0054ACF9 /* GDUsurveyAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUsurveyAnswer.m; sourceTree = "<group>"; };
+		0B0EE4A418F7B67F0054ACF9 /* GDUsurveyQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUsurveyQuestion.h; sourceTree = "<group>"; };
+		0B0EE4A518F7B67F0054ACF9 /* GDUsurveyQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUsurveyQuestion.m; sourceTree = "<group>"; };
+		0B0EE4A618F7B67F0054ACF9 /* GDUWSPortBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUWSPortBinding.h; sourceTree = "<group>"; };
+		0B0EE4A718F7B67F0054ACF9 /* GDUWSPortBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUWSPortBinding.m; sourceTree = "<group>"; };
+		0B0EE4B418F7B6A90054ACF9 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		0B0EE4B518F7B6A90054ACF9 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		0B0EE4B718F7B6A90054ACF9 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		0B0EE4B818F7B6A90054ACF9 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		0B0EE4B918F7B6A90054ACF9 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		0B0EE4BA18F7B6A90054ACF9 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		0B0EE4BB18F7B6A90054ACF9 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		0B0EE4BC18F7B6A90054ACF9 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		0B0EE4BD18F7B6A90054ACF9 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		0B0EE4BE18F7B6A90054ACF9 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		0B0EE4BF18F7B6A90054ACF9 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		0B0EE4C118F7B6A90054ACF9 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		0B2EFD0718F716AF001A2396 /* SmartCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2EFD0A18F716AF001A2396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B2EFD0C18F716AF001A2396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B2EFD0E18F716AF001A2396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B2EFD1218F716AF001A2396 /* SmartCampus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartCampus-Info.plist"; sourceTree = "<group>"; };
+		0B2EFD1418F716AF001A2396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B2EFD1618F716AF001A2396 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B2EFD1818F716AF001A2396 /* SmartCampus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartCampus-Prefix.pch"; sourceTree = "<group>"; };
+		0B2EFD1918F716AF001A2396 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B2EFD1A18F716AF001A2396 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B2EFD1D18F716AF001A2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B2EFD1F18F716AF001A2396 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B2EFD2018F716AF001A2396 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B2EFD2218F716AF001A2396 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B2EFD2818F716AF001A2396 /* SmartCampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2EFD2918F716AF001A2396 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0B2EFD3118F716AF001A2396 /* SmartCampusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartCampusTests-Info.plist"; sourceTree = "<group>"; };
+		0B2EFD3318F716AF001A2396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B2EFD3518F716AF001A2396 /* SmartCampusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartCampusTests.m; sourceTree = "<group>"; };
+		0B9E5DC318F71A0100C29924 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		0B9E5DC418F71A0100C29924 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		0B9E5DC618F71B5300C29924 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2EFD0418F716AF001A2396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EFD0D18F716AF001A2396 /* CoreGraphics.framework in Frameworks */,
+				0B9E5DC718F71B5300C29924 /* FacebookSDK.framework in Frameworks */,
+				0B2EFD0F18F716AF001A2396 /* UIKit.framework in Frameworks */,
+				0B2EFD0B18F716AF001A2396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2EFD2518F716AF001A2396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EFD2A18F716AF001A2396 /* XCTest.framework in Frameworks */,
+				0B2EFD2C18F716AF001A2396 /* UIKit.framework in Frameworks */,
+				0B2EFD2B18F716AF001A2396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0EE49318F7B66F0054ACF9 /* WSDL */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EE49418F7B67F0054ACF9 /* GDUcustomer.h */,
+				0B0EE49518F7B67F0054ACF9 /* GDUcustomer.m */,
+				0B0EE49618F7B67F0054ACF9 /* GDUgetSensorDataResponse.h */,
+				0B0EE49718F7B67F0054ACF9 /* GDUgetSensorDataResponse.m */,
+				0B0EE49818F7B67F0054ACF9 /* GDUHelper.h */,
+				0B0EE49918F7B67F0054ACF9 /* GDUHelper.m */,
+				0B0EE49A18F7B67F0054ACF9 /* GDURequestResultHandler.h */,
+				0B0EE49B18F7B67F0054ACF9 /* GDURequestResultHandler.m */,
+				0B0EE49C18F7B67F0054ACF9 /* GDUsensor.h */,
+				0B0EE49D18F7B67F0054ACF9 /* GDUsensor.m */,
+				0B0EE49E18F7B67F0054ACF9 /* GDUSoapError.h */,
+				0B0EE49F18F7B67F0054ACF9 /* GDUSoapError.m */,
+				0B0EE4A018F7B67F0054ACF9 /* GDUsurvey.h */,
+				0B0EE4A118F7B67F0054ACF9 /* GDUsurvey.m */,
+				0B0EE4A218F7B67F0054ACF9 /* GDUsurveyAnswer.h */,
+				0B0EE4A318F7B67F0054ACF9 /* GDUsurveyAnswer.m */,
+				0B0EE4A418F7B67F0054ACF9 /* GDUsurveyQuestion.h */,
+				0B0EE4A518F7B67F0054ACF9 /* GDUsurveyQuestion.m */,
+				0B0EE4A618F7B67F0054ACF9 /* GDUWSPortBinding.h */,
+				0B0EE4A718F7B67F0054ACF9 /* GDUWSPortBinding.m */,
+			);
+			name = WSDL;
+			sourceTree = "<group>";
+		};
+		0B0EE4B218F7B6960054ACF9 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EE4B318F7B6A90054ACF9 /* Additions */,
+				0B0EE4B618F7B6A90054ACF9 /* Categories */,
+				0B0EE4B918F7B6A90054ACF9 /* DDXML.h */,
+				0B0EE4BA18F7B6A90054ACF9 /* DDXMLDocument.h */,
+				0B0EE4BB18F7B6A90054ACF9 /* DDXMLDocument.m */,
+				0B0EE4BC18F7B6A90054ACF9 /* DDXMLElement.h */,
+				0B0EE4BD18F7B6A90054ACF9 /* DDXMLElement.m */,
+				0B0EE4BE18F7B6A90054ACF9 /* DDXMLNode.h */,
+				0B0EE4BF18F7B6A90054ACF9 /* DDXMLNode.m */,
+				0B0EE4C018F7B6A90054ACF9 /* Private */,
+			);
+			name = KissXML;
+			sourceTree = "<group>";
+		};
+		0B0EE4B318F7B6A90054ACF9 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EE4B418F7B6A90054ACF9 /* DDXMLElementAdditions.h */,
+				0B0EE4B518F7B6A90054ACF9 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		0B0EE4B618F7B6A90054ACF9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EE4B718F7B6A90054ACF9 /* NSString+DDXML.h */,
+				0B0EE4B818F7B6A90054ACF9 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0B0EE4C018F7B6A90054ACF9 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EE4C118F7B6A90054ACF9 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0B2EFCFE18F716AF001A2396 = {
+			isa = PBXGroup;
+			children = (
+				0B0EE4B218F7B6960054ACF9 /* KissXML */,
+				0B0EE49318F7B66F0054ACF9 /* WSDL */,
+				0B2EFD1018F716AF001A2396 /* SmartCampus */,
+				0B2EFD2F18F716AF001A2396 /* SmartCampusTests */,
+				0B2EFD0918F716AF001A2396 /* Frameworks */,
+				0B2EFD0818F716AF001A2396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B2EFD0818F716AF001A2396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EFD0718F716AF001A2396 /* SmartCampus.app */,
+				0B2EFD2818F716AF001A2396 /* SmartCampusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B2EFD0918F716AF001A2396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EFD0A18F716AF001A2396 /* Foundation.framework */,
+				0B9E5DC618F71B5300C29924 /* FacebookSDK.framework */,
+				0B2EFD0C18F716AF001A2396 /* CoreGraphics.framework */,
+				0B2EFD0E18F716AF001A2396 /* UIKit.framework */,
+				0B2EFD2918F716AF001A2396 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B2EFD1018F716AF001A2396 /* SmartCampus */ = {
+			isa = PBXGroup;
+			children = (
+				0B9E5DC318F71A0100C29924 /* SettingsViewController.h */,
+				0B9E5DC418F71A0100C29924 /* SettingsViewController.m */,
+				0B2EFD1918F716AF001A2396 /* AppDelegate.h */,
+				0B2EFD1A18F716AF001A2396 /* AppDelegate.m */,
+				0B2EFD1C18F716AF001A2396 /* Main.storyboard */,
+				0B2EFD1F18F716AF001A2396 /* ViewController.h */,
+				0B2EFD2018F716AF001A2396 /* ViewController.m */,
+				0B2EFD2218F716AF001A2396 /* Images.xcassets */,
+				0B2EFD1118F716AF001A2396 /* Supporting Files */,
+			);
+			path = SmartCampus;
+			sourceTree = "<group>";
+		};
+		0B2EFD1118F716AF001A2396 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EFD1218F716AF001A2396 /* SmartCampus-Info.plist */,
+				0B2EFD1318F716AF001A2396 /* InfoPlist.strings */,
+				0B2EFD1618F716AF001A2396 /* main.m */,
+				0B2EFD1818F716AF001A2396 /* SmartCampus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B2EFD2F18F716AF001A2396 /* SmartCampusTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EFD3518F716AF001A2396 /* SmartCampusTests.m */,
+				0B2EFD3018F716AF001A2396 /* Supporting Files */,
+			);
+			path = SmartCampusTests;
+			sourceTree = "<group>";
+		};
+		0B2EFD3018F716AF001A2396 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EFD3118F716AF001A2396 /* SmartCampusTests-Info.plist */,
+				0B2EFD3218F716AF001A2396 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2EFD0618F716AF001A2396 /* SmartCampus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2EFD3918F716AF001A2396 /* Build configuration list for PBXNativeTarget "SmartCampus" */;
+			buildPhases = (
+				0B2EFD0318F716AF001A2396 /* Sources */,
+				0B2EFD0418F716AF001A2396 /* Frameworks */,
+				0B2EFD0518F716AF001A2396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCampus;
+			productName = SmartCampus;
+			productReference = 0B2EFD0718F716AF001A2396 /* SmartCampus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B2EFD2718F716AF001A2396 /* SmartCampusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2EFD3C18F716AF001A2396 /* Build configuration list for PBXNativeTarget "SmartCampusTests" */;
+			buildPhases = (
+				0B2EFD2418F716AF001A2396 /* Sources */,
+				0B2EFD2518F716AF001A2396 /* Frameworks */,
+				0B2EFD2618F716AF001A2396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2EFD2E18F716AF001A2396 /* PBXTargetDependency */,
+			);
+			name = SmartCampusTests;
+			productName = SmartCampusTests;
+			productReference = 0B2EFD2818F716AF001A2396 /* SmartCampusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B2EFCFF18F716AF001A2396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Nickboy;
+				TargetAttributes = {
+					0B2EFD2718F716AF001A2396 = {
+						TestTargetID = 0B2EFD0618F716AF001A2396;
+					};
+				};
+			};
+			buildConfigurationList = 0B2EFD0218F716AF001A2396 /* Build configuration list for PBXProject "SmartCampus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B2EFCFE18F716AF001A2396;
+			productRefGroup = 0B2EFD0818F716AF001A2396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B2EFD0618F716AF001A2396 /* SmartCampus */,
+				0B2EFD2718F716AF001A2396 /* SmartCampusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2EFD0518F716AF001A2396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EFD2318F716AF001A2396 /* Images.xcassets in Resources */,
+				0B2EFD1518F716AF001A2396 /* InfoPlist.strings in Resources */,
+				0B2EFD1E18F716AF001A2396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2EFD2618F716AF001A2396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EFD3418F716AF001A2396 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2EFD0318F716AF001A2396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0EE4AD18F7B67F0054ACF9 /* GDUSoapError.m in Sources */,
+				0B0EE4B118F7B67F0054ACF9 /* GDUWSPortBinding.m in Sources */,
+				0B2EFD2118F716AF001A2396 /* ViewController.m in Sources */,
+				0B0EE4AF18F7B67F0054ACF9 /* GDUsurveyAnswer.m in Sources */,
+				0B0EE4C418F7B6A90054ACF9 /* DDXMLDocument.m in Sources */,
+				0B2EFD1B18F716AF001A2396 /* AppDelegate.m in Sources */,
+				0B0EE4C618F7B6A90054ACF9 /* DDXMLNode.m in Sources */,
+				0B0EE4B018F7B67F0054ACF9 /* GDUsurveyQuestion.m in Sources */,
+				0B0EE4AB18F7B67F0054ACF9 /* GDURequestResultHandler.m in Sources */,
+				0B0EE4C318F7B6A90054ACF9 /* NSString+DDXML.m in Sources */,
+				0B0EE4A918F7B67F0054ACF9 /* GDUgetSensorDataResponse.m in Sources */,
+				0B0EE4AC18F7B67F0054ACF9 /* GDUsensor.m in Sources */,
+				0B0EE4AE18F7B67F0054ACF9 /* GDUsurvey.m in Sources */,
+				0B2EFD1718F716AF001A2396 /* main.m in Sources */,
+				0B9E5DC518F71A0100C29924 /* SettingsViewController.m in Sources */,
+				0B0EE4C518F7B6A90054ACF9 /* DDXMLElement.m in Sources */,
+				0B0EE4A818F7B67F0054ACF9 /* GDUcustomer.m in Sources */,
+				0B0EE4AA18F7B67F0054ACF9 /* GDUHelper.m in Sources */,
+				0B0EE4C218F7B6A90054ACF9 /* DDXMLElementAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2EFD2418F716AF001A2396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EFD3618F716AF001A2396 /* SmartCampusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2EFD2E18F716AF001A2396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2EFD0618F716AF001A2396 /* SmartCampus */;
+			targetProxy = 0B2EFD2D18F716AF001A2396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B2EFD1318F716AF001A2396 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2EFD1418F716AF001A2396 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B2EFD1C18F716AF001A2396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2EFD1D18F716AF001A2396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B2EFD3218F716AF001A2396 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2EFD3318F716AF001A2396 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2EFD3718F716AF001A2396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B2EFD3818F716AF001A2396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B2EFD3A18F716AF001A2396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartCampus/SmartCampus-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"$(inherited)",
+					"/Volumes/Macintosh\\ HD/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
+				INFOPLIST_FILE = "SmartCampus/SmartCampus-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B2EFD3B18F716AF001A2396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartCampus/SmartCampus-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"$(inherited)",
+					"/Volumes/Macintosh\\ HD/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
+				INFOPLIST_FILE = "SmartCampus/SmartCampus-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0B2EFD3D18F716AF001A2396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartCampus.app/SmartCampus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartCampus/SmartCampus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartCampusTests/SmartCampusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0B2EFD3E18F716AF001A2396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartCampus.app/SmartCampus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartCampus/SmartCampus-Prefix.pch";
+				INFOPLIST_FILE = "SmartCampusTests/SmartCampusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2EFD0218F716AF001A2396 /* Build configuration list for PBXProject "SmartCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2EFD3718F716AF001A2396 /* Debug */,
+				0B2EFD3818F716AF001A2396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2EFD3918F716AF001A2396 /* Build configuration list for PBXNativeTarget "SmartCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2EFD3A18F716AF001A2396 /* Debug */,
+				0B2EFD3B18F716AF001A2396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2EFD3C18F716AF001A2396 /* Build configuration list for PBXNativeTarget "SmartCampusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2EFD3D18F716AF001A2396 /* Debug */,
+				0B2EFD3E18F716AF001A2396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B2EFCFF18F716AF001A2396 /* Project object */;
+}
